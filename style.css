@@ -1,0 +1,21 @@
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav {
+    font-size: 20px;
+    background-color: rgb(255, 165, 0);
+}
+
+#recipe-heading {
+    color: rgb(255, 98, 0);
+}
+
+#recipe-image {
+    width: 400px;
+    height: auto;
+}
+
+#recipe-list {
+    font-size: 18px;
+}
