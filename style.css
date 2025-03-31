@@ -14,18 +14,60 @@ body {
 
 nav {
     font-size: 20px;
-    background-color: rgb(255, 165, 0);
+    background-color: rgba(255, 98, 0, 0.825);
+    padding: 8px;
+    margin-bottom: 16px;
 }
 
-#recipe-heading {
+nav a {
+    display: inline-block;
+    color: rgb(255, 242, 178);
+    padding: 8px;
+    margin: 2px;
+}
+
+main {
+    margin: 8px auto;
+    background-color: rgb(255, 247, 206);
+    padding: 16px 30px;
+}
+
+.container {
+    /* padding: 0px 8px 0px; */
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    background-color: rgba(175, 175, 146, 0.266);
+}
+
+main .container h1 {
+    padding-top: 16px;
     color: rgb(255, 98, 0);
+    text-align: center;
 }
 
-#recipe-image {
+main .container #recipe-image {
     width: 400px;
     height: auto;
+    display: block;
+    margin: 0px auto 24px;
 }
 
-#recipe-list {
+main .container h2 {
+    text-align: center;
+    background-color: rgba(255, 98, 0, 0.72);
+    padding: 4px;
+    color: rgb(255, 247, 206);
+}
+
+main .container h2 ~ * {
+    margin: 0px 16px;
+}
+
+main .container li {
+    width: 600px;
+    margin: 0px auto 6px;
+}
+
+main .container #recipe-list {
     font-size: 18px;
 }
